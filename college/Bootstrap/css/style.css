@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.navbar
+{
+    position: relative;
+    
+}
+
+
+
+body
+{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.logo-img
+{
+    border-radius: 50%;
+}
+.text-blue
+{
+    
+   color: #04597E !important;
+}
+.navbar-toggler
+{
+    color:#04597E !important; 
+}
+.dropdown-item:hover
+{
+    
+       background-color: #04597E !important;
+    color: white !important;
+    box-shadow: 0 5px 5px black;
+}
+.landing-section
+{
+
+background: url("../../images/coll.jpg")no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+}
+.landing-wrapper
+{
+    
+  background-color: rgba(0,0,0,0.5);  
+    height: 100%;
+}
+.lead-m
+{
+   font-family: 'Overlock SC', cursive;
+}
+.bg-dark
+{
+ background: linear-gradient(45deg,black,darkslategrey);  
+    
+}
+.gallery-img
+{
+   border-radius: 5px; 
+    border: 2px solid #04597E !important; 
+    box-shadow:  0 0 10px black;
+    transition: all 0.5s;
+}
+.gallery-img:hover{
+    
+    transform: scale(1.05,1.05);
+}
+.card
+{
+box-shadow: 0 0 5px 1px black;
+
+}
+
+
+
+
+
+
+
+
+
+
